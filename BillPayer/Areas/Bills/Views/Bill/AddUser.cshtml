@@ -1,0 +1,108 @@
+﻿@model BillRequiredComponents
+@{
+    ViewData["Title"] = "InsertCustomer";
+}
+<style>
+    td {
+        padding-right: 3px !important;
+        padding-left: 3px !important;
+    }
+</style>
+<link href="~/css/billcreate.css" rel="stylesheet" />
+<div style="margin-top:5px;">
+    <h4 style="text-align:center">Receipt Portal</h4>
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="AddUser">
+                <input asp-for="@Model.BillSummary.Id" hidden />
+                <div style="margin:50px 0px 50px 0px;">
+                    <div class="row">
+                        <div class="col-md-5 d-flex justify-content-between">
+                            <label asp-for="BillSummary.PayerUserId" class="form-label"></label>
+                            <select asp-for="BillSummary.PayerUserId" asp-items="Model.UserList" class="js-example-basic-single form-select p-2 w-75 paidByUser form-control" readonly disabled>
+                                <option selected disabled>--Select User--</option>
+                            </select>
+                            <span asp-validation-for="BillSummary.PayerUserId" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-4"> </div>
+                        <div class="d-flex col-md-3">
+                            <div class="d-flex flex-column justify-content-center">
+                                <h6 class="align-middle">Date: &nbsp;</h6>
+                            </div>
+                            <div>
+                                <ejs-datepicker ejs-for="@Model.BillSummary.Date" value="@Model.BillSummary.Date" format="yyyy-MM-dd" placeholder="Enter date" class="form-control" readonly disabled></ejs-datepicker>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group" style="margin:50px 0px 50px 0px;">
+                    <table id="dyn" class="table">
+                        <thead>
+                            <tr>
+                                <th style="width:20%">User</th>
+                                <th style="width:20%">Product</th>
+                                <th style="width:10%">QTY</th>
+                                <th style="width:10%">Price</th>
+                                <th style="width:10%">Discount/Addition</th>
+                                <th style="width:10%">Total</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int j = 0; j < Model.BillSummary.BhukkadsList[0].Products.Count; j++)
+                            {
+                                <tr>
+                                    <td>
+                                        <select asp-for="BillSummary.BhukkadsList[0].UserId" asp-items="Model.UserList" class="form-select p-2 w-100 userList">
+                                            <option selected disabled>--Select User--</option>
+                                        </select>
+                                        <span asp-validation-for="BillSummary.BhukkadsList[0].UserId" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <select asp-for="BillSummary.BhukkadsList[0].Products[j].ProductId" asp-items="Model.ProductList" class="productList js-example-basic-single form-select p-2 w-100">
+                                            <option selected disabled>--Select Product--</option>
+                                        </select>
+                                        <span asp-validation-for="BillSummary.BhukkadsList[0].Products[j].ProductId" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <input asp-for="BillSummary.BhukkadsList[0].Products[j].Qty" class="form-control p-2 productQty">
+                                        <span asp-validation-for="BillSummary.BhukkadsList[0].Products[0].Qty" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <input asp-for="BillSummary.BhukkadsList[0].Products[j].Price" class="form-control p-2 productPrice">
+                                        <span asp-validation-for="BillSummary.BhukkadsList[0].Products[j].Price" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <input asp-for="BillSummary.BhukkadsList[0].Products[j].Discount" class="form-control p-2 productDiscount">
+                                        <span asp-validation-for="BillSummary.BhukkadsList[0].Products[j].Discount" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <input asp-for="BillSummary.BhukkadsList[0].Products[j].Total" class="form-control p-2">
+                                        <span asp-validation-for="BillSummary.BhukkadsList[0].Products[j].Total" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <button type="button" id="addJ_0_@(j)" onclick="AddProduct(this)" class="btn p-2" style="background-color:#042D2D; color:white;"><i class="bi bi-bag-plus-fill h3 text-light"></i></button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <input type="hidden" id="flagJ" value="0" />
+                <input type="hidden" id="flag" value="0" />
+
+                <div class="d-flex justify-content-end">
+                    <input type="submit" value="Add User" class="btn" style="background-color:#042D2D; color:white;" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="~/js/bills/adduser.js"></script>
+}

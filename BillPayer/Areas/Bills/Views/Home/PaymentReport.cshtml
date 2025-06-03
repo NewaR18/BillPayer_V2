@@ -1,0 +1,87 @@
+﻿@{
+    var status = Context.Request.Query["status"];
+    var toReceive = "text-primary";
+    var toPay = "text-primary";
+    var expenses = "text-primary";
+    var received = "text-primary";
+    switch (status)
+    {
+        case "toPay":
+            toPay = "active text-white";
+            break;
+        case "toReceive":
+            toReceive = "active text-white";
+            break;
+        case "received":
+            received = "active text-white";
+            break;
+        default:
+            expenses = "active text-white";
+            break;
+    }
+
+}
+<style>
+    th {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        font-size: 16px !important;
+    }
+
+    td {
+        font-size: 16px !important;
+    }
+
+    .list-group-item {
+        padding: 2px 5px 2px 5px !important
+    }
+
+</style>
+<div class="d-flex justify-content-between">
+    <div>
+        <a class="bg-primary text-light p-2 text-decoration-none" asp-controller="Order" asp-action="Create">Create New</a>
+    </div>
+    <div>
+        <ul class="list-group list-group-horizontal-sm">
+            <a style="text-decoration:none;" asp-controller="Home"
+               asp-action="PaymentReport" asp-route-status="toPay">
+            <li class="list-group-item @toPay">To Pay</li>
+            </a>
+            <a style="text-decoration:none;" asp-controller="Home"
+               asp-action="PaymentReport" asp-route-status="toReceive">
+            <li class="list-group-item @toReceive">To Receive</li>
+            </a>
+            <a style="text-decoration:none;" asp-controller="Home"
+               asp-action="PaymentReport" asp-route-status="expenses">
+            <li class="list-group-item @expenses">Expenses</li>
+            </a>
+            <a style="text-decoration:none;" asp-controller="Home"
+               asp-action="PaymentReport" asp-route-status="received">
+            <li class="list-group-item @received">Received</li>
+            </a>
+        </ul>
+    </div>
+</div>
+<table id="tblData" class="table-bordered table table-striped mt-2">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @*DataTable here*@
+    </tbody>
+</table>
+<div class="modal fade" id="detailsModal" tabindex="-1" role="dialog" aria-labelledby="detailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width:600px;">
+            <div class="modal-body" id="detailsPortal">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/Home/paymentReport.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.2/moment.min.js"></script>

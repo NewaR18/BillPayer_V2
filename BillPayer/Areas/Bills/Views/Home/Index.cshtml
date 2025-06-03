@@ -1,0 +1,146 @@
+﻿@model DashboardElements
+<link href="~/css/home/index.css" rel="stylesheet" />
+<div class="main-wrapper">
+    <div>
+        <div class="content container-fluid">
+            <div class="page-header">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="page-sub-header">
+                            <h3 class="page-title">Welcome @Model.Name</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-sm-6 col-12 d-flex divExpenses">
+                    <div class="card bg-comman w-100">
+                        <div class="card-body">
+                            <div class="db-widgets d-flex justify-content-between align-items-center">
+                                <div class="db-info">
+                                    <h6>Expenses</h6>
+                                    <h5>Rs <span id="expenseSpan">@Model.Expenses</span></h5>
+                                </div>
+                                <div class="db-icon">
+                                    <img src="~/images/designs/expenses.png" width="50" height="50"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-12 d-flex divPaymentDue">
+                    <div class="card bg-comman w-100">
+                        <div class="card-body">
+                            <div class="db-widgets d-flex justify-content-between align-items-center">
+                                <div class="db-info">
+                                    <h6>Payment Due</h6>
+                                    <h5>Rs <span id="totalDueSpan">@Model.TotalDue</span></h5>
+                                </div>
+                                <div class="db-icon">
+                                    <img src="~/images/designs/paymentdue.png" width="50" height="50" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-12 d-flex">
+                    <div class="card bg-comman w-100">
+                        <div class="card-body">
+                            <div class="db-widgets d-flex justify-content-between align-items-center">
+                                <div class="db-info">
+                                    <h6>Last Payment</h6>
+                                    <h5><span id="paymentDateSpan">@Model.LastPaymentDate</span></h5>
+                                </div>
+                                <div class="db-icon">
+                                    <img src="~/images/designs/lastpaymentdate.png" width="50" height="50" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-12 d-flex divToReceive">
+                    <div class="card bg-comman w-100">
+                        <div class="card-body">
+                            <div class="db-widgets d-flex justify-content-between align-items-center">
+                                <div class="db-info">
+                                    <h6>To Receive</h6>
+                                    <h5>Rs <span id="toReceiveSpan">@Model.ToReceive</span></h5>
+                                </div>
+                                <div class="db-icon">
+                                    <img src="~/images/designs/toreceive.png" width="50" height="50" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-12 col-lg-6 chartDiv">
+                    <div class="card card-chart">
+                        <div class="card-header">
+                            <div>
+                                <div>
+                                    <h5 class="card-title">Expense Trend</h5>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div id="apexcharts-area">
+                                <div>
+                                    <canvas id="myChart" style="margin-top: 10px;"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12 col-lg-6">
+
+                    <div class="card card-chart">
+                        <div class="card-header">
+                            <div>
+                                <div>
+                                    <h5 class="card-title">Payment Portal</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <table id="tblData" class="table-bordered table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Name</th>
+                                        <th>Price</th>
+                                        @*<th></th>*@
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @*DataTable here*@
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@*<div id="qrCode"></div>
+<div id="qrCodeData" data-url="@qrURL"></div>*@
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width:600px;">
+            <div class="modal-body" id="paymentPortal">
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="~/lib/js/chart.min.js"></script>
+    <script src="~/js/home/index.js"></script>
+    <script src="~/lib/qrcode.min.js"></script>
+    <script src="~/js/home/paydetails.js"></script>
+}

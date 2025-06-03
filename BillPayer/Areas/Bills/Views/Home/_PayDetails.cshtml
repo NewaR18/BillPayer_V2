@@ -1,0 +1,32 @@
+﻿@model PaymentDetails
+@{
+    string qrURL = "";
+    if (!string.IsNullOrEmpty(Model.EsewaName) && !string.IsNullOrEmpty(Model.EsewaPhone))
+    {
+        qrURL = "{\"eSewa_id\":\"" + Model.EsewaName + "\",\"name\":\"" + Model.EsewaPhone + "\"}";
+    }
+}
+<div>
+@if (!string.IsNullOrEmpty(qrURL))
+{
+    <div class="d-flex justify-content-evenly">
+        <div>
+            <h4>To @Model.Name</h4>
+            <h5>Esewa Name : @Model.EsewaName</h5>
+            <h5>Phone Number : @Model.EsewaPhone</h5>
+        </div>
+        <div>
+                <div id="qrCode"></div>
+                <div id="qrCodeData" data-url="@qrURL"></div>
+        </div>
+    </div>
+    
+    
+}
+else if(Model.Name!=null){
+    <h5>User @Model.Name has not updated the Esewa Details</h5>
+}
+else{
+    <h5>Error Fetching Data</h5>
+}
+</div>

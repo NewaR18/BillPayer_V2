@@ -1,0 +1,79 @@
+﻿@model ProductViewModel
+<form asp-controller="Bill" asp-action="ProductsEdit" class="mb-3">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div>
+                <input asp-for="Id" type="text" class="form-control" hidden />
+                <input asp-for="BillSummaryId" type="text" class="form-control" hidden />
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <div class="d-flex flex-column justify-content-center p-0 m-0">
+                            <h6 class="align-middle">Date: &nbsp;&nbsp;</h6>
+                        </div>
+                        <div>
+                            <ejs-datepicker ejs-for="Date" format="yyyy-MM-dd" placeholder="Enter date" readonly></ejs-datepicker>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="mt-4 row">
+                        <div class="col-md-5">
+                            <input asp-for="User" type="text" class="form-control border" readonly disabled />
+                        </div>
+                    </div>
+                    <div class="mt-4 row">
+                        <div class="col-md-5">
+                            <input asp-for="ProductName" type="text" class="form-control" disabled readonly />
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <label asp-for="Qty" class="form-label"></label>
+                            <input asp-for="Qty" type="text" class="form-control" />
+                            <span asp-validation-for="Qty" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="Price" class="form-label"></label>
+                            <input asp-for="Price" type="text" class="form-control" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <label asp-for="Discount" class="form-label"></label>
+                            <input asp-for="Discount" type="text" class="form-control" />
+                            <span asp-validation-for="Discount" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="Total" class="form-label"></label>
+                            <input asp-for="Total" type="text" class="form-control" />
+                            <span asp-validation-for="Total" class="text-danger"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-center my-4">
+                        <input type="submit" value="Edit" class="btn btn-primary"/>
+                    </div>
+                    <a class="bg-primary text-light p-2 text-decoration-none mt-3" asp-controller="Bill" asp-action="Details" asp-route-Id="@Model.BillSummaryId">Back To Details</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="~/js/bills/productsedit.js"></script>
+}

@@ -1,0 +1,122 @@
+﻿@model BillRequiredComponents
+@{
+    ViewData["Title"] = "InsertCustomer";
+}
+<style>
+    td {
+        padding-right: 3px !important;
+        padding-left: 3px !important;
+    }
+</style>
+<link href="~/css/billcreate.css" rel="stylesheet" />
+<div style="margin-top:5px">
+    <h4 style="text-align:center">Receipt Portal</h4>
+    <div class="row">
+        <div class="col-md-12">
+            <div style="margin:50px 0px 0px 0px;">
+                <div class="row">
+                    <div class="col-md-5 d-flex justify-content-between">
+                        <label asp-for="BillSummary.PayerUserId" class="form-label"></label>
+                        <select asp-for="BillSummary.PayerUserId" asp-items="Model.UserList" class="js-example-basic-single form-select p-2 w-75 paidByUser">
+                            <option selected disabled>--Select User--</option>
+                        </select>
+                        <span asp-validation-for="BillSummary.PayerUserId" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-4"> </div>
+                    <div class="d-flex col-md-3">
+                        <div class="d-flex flex-column justify-content-center">
+                            <h6 class="align-middle">Date: &nbsp;</h6>
+                        </div>
+                        <div>
+                            <input asp-for="@Model.BillSummary.Date" type="date" placeholder="Enter date"/>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div style="margin:0px 50px 0px 50px;" class="d-flex justify-content-end">
+                <div>
+                    <a asp-action="AddUser" asp-route-billSummaryId="@Model.BillSummary.Id" class="btn btn-primary p-1">
+                        Add User
+                    </a>
+                </div>
+            </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group" style="margin:0px 0px 0px 0px;">
+                <table id="dyn" class="table">
+                    <thead>
+                        <tr>
+                            <th style="width:17%">User</th>
+                            <th style="width:20%">Product</th>
+                            <th style="width:10%">QTY</th>
+                            <th style="width:10%">Price</th>
+                            <th style="width:10%">Discount/Addition</th>
+                            <th style="width:10%">Total</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int i = 0; i < Model.BillSummary.BhukkadsList.Count; i++)
+                        {
+                            @for (int j = 0; j < Model.BillSummary.BhukkadsList[i].Products.Count; j++)
+                            {
+                                <tr>
+                                    <td>
+                                        <select asp-for="BillSummary.BhukkadsList[i].UserId" asp-items="Model.UserList" class="form-select p-2 w-100 userList Bhukkad_@(j)" disabled>
+                                            <option selected disabled>--Select User--</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select asp-for="BillSummary.BhukkadsList[i].Products[j].ProductId" asp-items="Model.ProductList" class="productList js-example-basic-single form-select p-2 w-100" disabled>
+                                            <option selected disabled>--Select Product--</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input asp-for="BillSummary.BhukkadsList[i].Products[j].Qty" class="form-control p-2 productQty" disabled>
+                                    </td>
+                                    <td>
+                                        <input asp-for="BillSummary.BhukkadsList[i].Products[j].Price" class="form-control p-2 productPrice" disabled>
+                                    </td>
+                                    <td>
+                                        <input asp-for="BillSummary.BhukkadsList[i].Products[j].Discount" class="form-control p-2 productDiscount" disabled>
+                                    </td>
+                                    <td>
+                                        <input asp-for="BillSummary.BhukkadsList[i].Products[j].Total" class="form-control p-2" disabled>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <a asp-action="ProductsEdit" asp-route-id="@Model.BillSummary.BhukkadsList[i].Products[j].Id"><i class="bi bi-pen"></i></a> ||
+                                            <a onclick="Delete('/Bills/Bill/ProductsDelete?id='+@Model.BillSummary.BhukkadsList[i].Products[j].Id)"><i class="bi bi-trash"></i></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <a asp-action="AddProduct" asp-route-bhukkadsId="@Model.BillSummary.BhukkadsList[i].Id" class="btn btn-primary p-1 addProduct_@(j)">
+                                                <i class="bi bi-bag-plus-fill h3 text-light"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="~/js/bills/billdetails.js"></script>
+    <script src="~/js/deletetdrow.js"></script>
+    <script>
+             function submit(args) {
+                 debugger;
+                    alert("Hello");
+             }
+    </script>
+}

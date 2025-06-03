@@ -1,0 +1,749 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\areas\\accountmanager\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\areas\\accountmanager\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\areas\\accountmanager\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\areas\\accountmanager\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\billpayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\billpayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitro\\AppData\\Roaming\\Microsoft\\UserSecrets\\c6c0d340-2d12-4ea3-82c2-7b2604f4a1fd\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\modules\\servicemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\modules\\servicemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\viewcomponents\\paymentpopupviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\viewcomponents\\paymentpopupviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\modules\\startscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\modules\\startscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\modules\\seedingmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\modules\\seedingmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\modules\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\modules\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\middleware\\authorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\middleware\\authorizationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\emailconfigurations\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\emailconfigurations\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\commonmethods\\textextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\commonmethods\\textextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\commonmethods\\responsedesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\commonmethods\\responsedesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\commonmethods\\emailfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\commonmethods\\emailfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\backgroundjobs\\recurringjobs\\emailjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\backgroundjobs\\recurringjobs\\emailjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\areas\\accountmanager\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\areas\\accountmanager\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\areas\\bills\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\areas\\bills\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\areas\\accountmanager\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\areas\\accountmanager\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\areas\\accountmanager\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\areas\\accountmanager\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\areas\\accountmanager\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\areas\\accountmanager\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\views\\shared\\components\\mainmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\views\\shared\\components\\mainmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\areas\\bills\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\areas\\bills\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\viewcomponents\\mainmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\viewcomponents\\mainmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.dataaccess\\dbinitializers\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|solutionrelative:billpay.dataaccess\\dbinitializers\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.dataaccess\\repository\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|solutionrelative:billpay.dataaccess\\repository\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.dataaccess\\repository\\irepository\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|solutionrelative:billpay.dataaccess\\repository\\irepository\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.dataaccess\\repository\\bhukkadsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|solutionrelative:billpay.dataaccess\\repository\\bhukkadsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.dataaccess\\repository\\billsummaryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|solutionrelative:billpay.dataaccess\\repository\\billsummaryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.dataaccess\\procedures\\usp_user_expense_chart.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|solutionrelative:billpay.dataaccess\\procedures\\usp_user_expense_chart.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.dataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|solutionrelative:billpay.dataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\middleware\\sqlhealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\middleware\\sqlhealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\exceptionhandling\\enricher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\exceptionhandling\\enricher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\wwwroot\\lib\\js\\chart.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\wwwroot\\lib\\js\\chart.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpayer\\areas\\bills\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F04C9CDD-7455-42D7-9B00-0531A5E4233D}|BillPayer\\BillPayer.csproj|solutionrelative:billpayer\\areas\\bills\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.utilities\\billpay.utilities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB09D688-3F5B-46AE-8B8E-1642F52B8CD5}|BillPay.Utilities\\BillPay.Utilities.csproj|solutionrelative:billpay.utilities\\billpay.utilities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.dataaccess\\billpay.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|solutionrelative:billpay.dataaccess\\billpay.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A1860C0-6A1F-43CC-AB7F-B6B47E1FC65F}|BillPay.Models\\BillPay.Models.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.models\\procedureseedinglog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A1860C0-6A1F-43CC-AB7F-B6B47E1FC65F}|BillPay.Models\\BillPay.Models.csproj|solutionrelative:billpay.models\\procedureseedinglog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|c:\\users\\nitro\\source\\repos\\billpayer\\billpayer\\billpay.dataaccess\\migrations\\20240626160320_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E2BA89-6470-4EEB-B7FE-220D80FB8281}|BillPay.DataAccess\\BillPay.DataAccess.csproj|solutionrelative:billpay.dataaccess\\migrations\\20240626160320_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 314,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BillPayer\\Areas\\AccountManager\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "BillPayer\\Areas\\AccountManager\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T17:14:09.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BillPayer\\Areas\\AccountManager\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "BillPayer\\Areas\\AccountManager\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T17:13:49.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Nitro\\AppData\\Roaming\\Microsoft\\UserSecrets\\c6c0d340-2d12-4ea3-82c2-7b2604f4a1fd\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\c6c0d340-2d12-4ea3-82c2-7b2604f4a1fd\\secrets.json",
+              "ToolTip": "C:\\Users\\Nitro\\AppData\\Roaming\\Microsoft\\UserSecrets\\c6c0d340-2d12-4ea3-82c2-7b2604f4a1fd\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\c6c0d340-2d12-4ea3-82c2-7b2604f4a1fd\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T17:08:46.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentPopupViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\ViewComponents\\PaymentPopupViewComponent.cs",
+              "RelativeDocumentMoniker": "BillPayer\\ViewComponents\\PaymentPopupViewComponent.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\ViewComponents\\PaymentPopupViewComponent.cs",
+              "RelativeToolTip": "BillPayer\\ViewComponents\\PaymentPopupViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T17:04:57.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Modules\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\Modules\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Modules\\DatabaseInitializer.cs",
+              "RelativeToolTip": "BillPay.Utilities\\Modules\\DatabaseInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T17:04:18.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SeedingModule.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Modules\\SeedingModule.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\Modules\\SeedingModule.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Modules\\SeedingModule.cs",
+              "RelativeToolTip": "BillPay.Utilities\\Modules\\SeedingModule.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:53.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthorizationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Middleware\\AuthorizationMiddleware.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\Middleware\\AuthorizationMiddleware.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Middleware\\AuthorizationMiddleware.cs",
+              "RelativeToolTip": "BillPay.Utilities\\Middleware\\AuthorizationMiddleware.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwCUAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:53.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Program.cs",
+              "RelativeDocumentMoniker": "BillPayer\\Program.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Program.cs",
+              "RelativeToolTip": "BillPayer\\Program.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAQwDQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:53.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceModule.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Modules\\ServiceModule.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\Modules\\ServiceModule.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Modules\\ServiceModule.cs",
+              "RelativeToolTip": "BillPay.Utilities\\Modules\\ServiceModule.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowBsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:51.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BillPayer.csproj",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\BillPayer.csproj",
+              "RelativeDocumentMoniker": "BillPayer\\BillPayer.csproj",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\BillPayer.csproj",
+              "RelativeToolTip": "BillPayer\\BillPayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-26T15:52:53.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TextExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\CommonMethods\\TextExtensions.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\CommonMethods\\TextExtensions.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\CommonMethods\\TextExtensions.cs",
+              "RelativeToolTip": "BillPay.Utilities\\CommonMethods\\TextExtensions.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAArwAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:53.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\appsettings.json",
+              "RelativeDocumentMoniker": "BillPayer\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\appsettings.json",
+              "RelativeToolTip": "BillPayer\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-26T15:52:53.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ResponseDesign.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\CommonMethods\\ResponseDesign.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\CommonMethods\\ResponseDesign.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\CommonMethods\\ResponseDesign.cs",
+              "RelativeToolTip": "BillPay.Utilities\\CommonMethods\\ResponseDesign.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwDUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:51.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmailFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\CommonMethods\\EmailFunctions.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\CommonMethods\\EmailFunctions.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\CommonMethods\\EmailFunctions.cs",
+              "RelativeToolTip": "BillPay.Utilities\\CommonMethods\\EmailFunctions.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwBAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:53.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmailJob.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\BackgroundJobs\\RecurringJobs\\EmailJob.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\BackgroundJobs\\RecurringJobs\\EmailJob.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\BackgroundJobs\\RecurringJobs\\EmailJob.cs",
+              "RelativeToolTip": "BillPay.Utilities\\BackgroundJobs\\RecurringJobs\\EmailJob.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:53.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StartScheduler.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Modules\\StartScheduler.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\Modules\\StartScheduler.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Modules\\StartScheduler.cs",
+              "RelativeToolTip": "BillPay.Utilities\\Modules\\StartScheduler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:51.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "BillPayer\\Areas\\AccountManager\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "BillPayer\\Areas\\AccountManager\\Controllers\\MenuController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T16:37:14.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\DbInitializers\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "BillPay.DataAccess\\DbInitializers\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\DbInitializers\\DbInitializer.cs",
+              "RelativeToolTip": "BillPay.DataAccess\\DbInitializers\\DbInitializer.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T08:44:55.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\EmailConfigurations\\EmailSender.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\EmailConfigurations\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\EmailConfigurations\\EmailSender.cs",
+              "RelativeToolTip": "BillPay.Utilities\\EmailConfigurations\\EmailSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:17:55.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Repo.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Repository\\Repo.cs",
+              "RelativeDocumentMoniker": "BillPay.DataAccess\\Repository\\Repo.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Repository\\Repo.cs",
+              "RelativeToolTip": "BillPay.DataAccess\\Repository\\Repo.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAEwBMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T19:05:35.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainMenuViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\ViewComponents\\MainMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "BillPayer\\ViewComponents\\MainMenuViewComponent.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\ViewComponents\\MainMenuViewComponent.cs",
+              "RelativeToolTip": "BillPayer\\ViewComponents\\MainMenuViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T16:14:30.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BillPayer\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BillPayer\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T16:41:36.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\Bills\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "BillPayer\\Areas\\Bills\\Views\\Home\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\Bills\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeToolTip": "BillPayer\\Areas\\Bills\\Views\\Home\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T16:42:08.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "BillPayer\\Areas\\AccountManager\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "BillPayer\\Areas\\AccountManager\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T16:35:24.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "BillPayer\\Areas\\AccountManager\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "BillPayer\\Areas\\AccountManager\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T16:37:48.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BillController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\Bills\\Controllers\\BillController.cs",
+              "RelativeDocumentMoniker": "BillPayer\\Areas\\Bills\\Controllers\\BillController.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\Bills\\Controllers\\BillController.cs",
+              "RelativeToolTip": "BillPayer\\Areas\\Bills\\Controllers\\BillController.cs",
+              "ViewState": "AQIAAHsBAAAAAAAAAAAAADUBAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T19:04:46.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Views\\Shared\\Components\\MainMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "BillPayer\\Views\\Shared\\Components\\MainMenu\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Views\\Shared\\Components\\MainMenu\\Default.cshtml",
+              "RelativeToolTip": "BillPayer\\Views\\Shared\\Components\\MainMenu\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T16:14:43.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BillPayer\\Areas\\AccountManager\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\AccountManager\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BillPayer\\Areas\\AccountManager\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwDgBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T19:02:24.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BillPayer\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BillPayer\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T16:14:03.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SqlHealthCheck.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Middleware\\SqlHealthCheck.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\Middleware\\SqlHealthCheck.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\Middleware\\SqlHealthCheck.cs",
+              "RelativeToolTip": "BillPay.Utilities\\Middleware\\SqlHealthCheck.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:51.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BillPayer\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BillPayer\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-26T16:05:16.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BillSummaryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Repository\\BillSummaryRepo.cs",
+              "RelativeDocumentMoniker": "BillPay.DataAccess\\Repository\\BillSummaryRepo.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Repository\\BillSummaryRepo.cs",
+              "RelativeToolTip": "BillPay.DataAccess\\Repository\\BillSummaryRepo.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAuwGoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T08:45:20.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "USP_USER_EXPENSE_CHART.sql",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Procedures\\USP_USER_EXPENSE_CHART.sql",
+              "RelativeDocumentMoniker": "BillPay.DataAccess\\Procedures\\USP_USER_EXPENSE_CHART.sql",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Procedures\\USP_USER_EXPENSE_CHART.sql",
+              "RelativeToolTip": "BillPay.DataAccess\\Procedures\\USP_USER_EXPENSE_CHART.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-28T08:46:20.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BhukkadsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Repository\\BhukkadsRepo.cs",
+              "RelativeDocumentMoniker": "BillPay.DataAccess\\Repository\\BhukkadsRepo.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Repository\\BhukkadsRepo.cs",
+              "RelativeToolTip": "BillPay.DataAccess\\Repository\\BhukkadsRepo.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAqwOUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T08:46:33.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Repository\\IRepository\\IRepo.cs",
+              "RelativeDocumentMoniker": "BillPay.DataAccess\\Repository\\IRepository\\IRepo.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Repository\\IRepository\\IRepo.cs",
+              "RelativeToolTip": "BillPay.DataAccess\\Repository\\IRepository\\IRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T09:01:52.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Enricher.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\ExceptionHandling\\Enricher.cs",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\ExceptionHandling\\Enricher.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\ExceptionHandling\\Enricher.cs",
+              "RelativeToolTip": "BillPay.Utilities\\ExceptionHandling\\Enricher.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:53.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\Bills\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BillPayer\\Areas\\Bills\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\Areas\\Bills\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BillPayer\\Areas\\Bills\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAJAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T15:52:53.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Chart.min.js",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\wwwroot\\lib\\JS\\Chart.min.js",
+              "RelativeDocumentMoniker": "BillPayer\\wwwroot\\lib\\JS\\Chart.min.js",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPayer\\wwwroot\\lib\\JS\\Chart.min.js",
+              "RelativeToolTip": "BillPayer\\wwwroot\\lib\\JS\\Chart.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-26T15:52:53.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BillPay.DataAccess\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BillPay.DataAccess\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:53.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20240626160320_initialSetup.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Migrations\\20240626160320_initialSetup.cs",
+              "RelativeDocumentMoniker": "BillPay.DataAccess\\Migrations\\20240626160320_initialSetup.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\Migrations\\20240626160320_initialSetup.cs",
+              "RelativeToolTip": "BillPay.DataAccess\\Migrations\\20240626160320_initialSetup.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T03:33:03.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BillPay.Utilities.csproj",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\BillPay.Utilities.csproj",
+              "RelativeDocumentMoniker": "BillPay.Utilities\\BillPay.Utilities.csproj",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Utilities\\BillPay.Utilities.csproj",
+              "RelativeToolTip": "BillPay.Utilities\\BillPay.Utilities.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-26T15:52:53.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BillPay.DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\BillPay.DataAccess.csproj",
+              "RelativeDocumentMoniker": "BillPay.DataAccess\\BillPay.DataAccess.csproj",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.DataAccess\\BillPay.DataAccess.csproj",
+              "RelativeToolTip": "BillPay.DataAccess\\BillPay.DataAccess.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-26T15:52:53.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProcedureSeedingLog.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Models\\ProcedureSeedingLog.cs",
+              "RelativeDocumentMoniker": "BillPay.Models\\ProcedureSeedingLog.cs",
+              "ToolTip": "C:\\Users\\Nitro\\source\\repos\\BillPayer\\BillPayer\\BillPay.Models\\ProcedureSeedingLog.cs",
+              "RelativeToolTip": "BillPay.Models\\ProcedureSeedingLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:52:53.812Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+﻿@model Product
+<div class="mb-3">
+    <div>
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" type="text" class="form-control" readonly/>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Rate" class="form-label"></label>
+        <input asp-for="Rate" type="number" class="form-control" readonly/>
+        <span asp-validation-for="Rate" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="QuantityType" class="form-label"></label>
+        <input asp-for="QuantityType" type="text" class="form-control" value="full" readonly/>
+        <span asp-validation-for="QuantityType" class="text-danger"></span>
+    </div>
+</div>
+<a class="bg-primary text-light p-2 text-decoration-none mt-3" asp-controller="Product" asp-action="Index">Back To Index</a>

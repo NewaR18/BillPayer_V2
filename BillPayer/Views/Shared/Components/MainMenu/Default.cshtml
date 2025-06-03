@@ -1,0 +1,63 @@
+﻿@model IEnumerable<string>
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-inner slimscroll">
+        <div id="sidebar-menu" class="sidebar-menu">
+            <ul>
+                <li>
+                    <a asp-area="Bills" asp-controller="Home" asp-action="Index"><i class="fa fa-tachometer" aria-hidden="true"></i> <span>Dashboard</span></a>
+                </li>
+                @if (Model.Any(x => x.Equals("Customers") || x.Equals("Role") || x.Equals("Menu")))
+                {
+                    <li class="submenu">
+                        <a href="#">
+                            <i class="fa fa-newspaper"></i> <span> User Control</span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul>
+                            @if (Model.Any(x => x.Equals("Customers")))
+                            {
+                                <li>
+                                    <a asp-area="AccountManager" asp-controller="Customers" asp-action="Index">Customers</a>
+                                </li>
+                            }
+                            @if (Model.Any(x => x.Equals("Role")))
+                            {
+                                <li>
+                                    <a asp-area="AccountManager" asp-controller="Role" asp-action="Index">Role</a>
+                                </li>
+                            }
+                            @if (Model.Any(x => x.Equals("Menu")))
+                            {
+                                <li>
+                                    <a asp-area="AccountManager" asp-controller="Menu" asp-action="Index">Menu</a>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                }
+                @if (Model.Any(x => x.Equals("Bill")))
+                {
+                    <li>
+                        <a asp-area="Bills" asp-controller="Bill" asp-action="Index"><i class="fa fa-tachometer" aria-hidden="true"></i> <span>Bills</span></a>
+                    </li>
+                }
+                @if (Model.Any(x => x.Equals("Product")))
+                {
+                    <li>
+                        <a asp-area="Bills" asp-controller="Product" asp-action="Index"><i class="fa fa-tachometer" aria-hidden="true"></i> <span>Products</span></a>
+                    </li>
+                }
+                @if (Model.Any(x => x.Equals("Home")))
+                {
+                    <li>
+                        <a asp-area="Bills" asp-controller="Home" asp-action="PaymentReport"><i class="fa fa-tachometer" aria-hidden="true"></i> <span>Report</span></a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+<link href="~/css/mainmenu/default.css" rel="stylesheet" />
+
+<script>
+</script>

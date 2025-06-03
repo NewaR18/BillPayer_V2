@@ -1,0 +1,8 @@
+2024-05-12 12:50:43.587 +05:45 [INF] Hello
+2024-05-12 12:51:03.138 +05:45 [INF] Hello
+2024-05-12 12:57:09.730 +05:45 [ERR] Error
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at BillPay.DataAccess.Repository.HomeRepo.GetDashboardElements(String userId) in C:\Users\sudip.shrestha\source\repos\BillPayer\BillPay.DataAccess\Repository\HomeRepo.cs:line 29
+   at BillPayer.Areas.Bills.Controllers.HomeController.Index() in C:\Users\sudip.shrestha\source\repos\BillPayer\BillPayer\Areas\Bills\Controllers\HomeController.cs:line 44
